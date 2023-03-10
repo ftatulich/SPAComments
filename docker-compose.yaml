@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./SPACommentsBackend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+  frontend:
+    build:
+      context: ./spa_comments
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+

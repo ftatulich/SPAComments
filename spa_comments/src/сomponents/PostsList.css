@@ -1,0 +1,101 @@
+.posts-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.posts-list {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts-list select {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.posts-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.posts-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.posts-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.posts-list li a:hover {
+    color: #0d47a1;
+}
+
+.posts-list li:last-child {
+    border-bottom: none;
+}
+
+.posts-list li div {
+    margin-bottom: 8px;
+}
+
+.posts-list li img {
+    max-width: 100%;
+    margin-top: 8px;
+}
+
+.posts-list li a {
+    display: block;
+    margin-top: 8px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.pagination button {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    margin: 0 4px;
+}
+
+.pagination button:focus {
+    outline: none;
+}
+
+.pagination button:disabled {
+    color: #ccc;
+    cursor: default;
+}
+
+.pagination button.page-item {
+    background-color: #f9f9f9;
+}
+
+.pagination button.active {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
