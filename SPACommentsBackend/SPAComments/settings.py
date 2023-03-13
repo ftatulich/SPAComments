@@ -16,7 +16,7 @@ REST_FRAMEWORK = {
 SECRET_KEY = 'django-insecure-b)y=vi__sj&+yza*dnig6i*=^y5q=p_iv_+32m3x2#z-b-%^r='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/') # 'data' is my media folder
